@@ -53,3 +53,27 @@ public class CharOccurance {
 
 	}
 }
+
+
+
+
+/*Char Occurance
+
+public static void main(String[] args) {
+	String str = "welcome to chennai";
+		char[] charArray = str.toCharArray();
+		Map<Character, Integer> map = new HashMap<Character, Integer>();
+		
+		for (int i = 0; i < charArray.length; i++) {
+			if(map.containsKey(charArray[i])) { // existing key
+				Integer value = map.get(charArray[i]);
+				int newValue = value+1;
+				map.put(charArray[i],newValue);
+			}else { // it is new entry
+				map.put(charArray[i],1);
+			}
+		}
+		System.out.println(map);
+	}
+
+}*/
