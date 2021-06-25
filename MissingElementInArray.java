@@ -20,3 +20,45 @@ public class MissingElementInArray {
 		}
 	}
 }
+
+/*
+ * Missing Number
+type 1
+
+public class FindMissingNumber2 {
+public static void main(String[] args) {
+	int[] number= {3,4,6,1,2,5,7,9,10};
+	//
+	Arrays.sort(number);
+	int sum1=0;
+	for (int i = 0; i < number.length; i++) {
+		sum1=sum1+number[i];
+		
+	}System.out.println(sum1);
+	
+	int sum2=0;
+	for (int i = 1; i <=10; i++) {
+		sum2=sum2+(i);
+	}System.out.println(sum2);
+	int sum3=sum2-sum1;
+	System.out.println("MissingNumber:"+sum3);
+}
+
+}
+
+type 2
+int[] num= {3,4,6,1,2,5,7,9,10};
+	int n=num.length+1;
+	int sum=n*(n+1)/2;
+	for (int i = 0; i < num.length; i++) {
+		sum=sum-num[i];
+		System.out.println(sum);
+	}
+	System.out.println("missing Number:"+sum);
+}
+
+}
+
+
+
+*/
